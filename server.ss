@@ -56,7 +56,7 @@
 ;; /self
 ;; own program representation
 (def (self-handler req res)
-  (http-response-file res '(("Content-Type" . "text/plain")) "simpled.ss"))
+  (http-response-file res '(("Content-Type" . "text/plain")) "server.ss"))
 
 ;; default
 (def (default-handler req res)
